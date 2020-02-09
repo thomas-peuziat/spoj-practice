@@ -8,16 +8,9 @@ def sieve_of_erastosthenes():
     sqrt_max = 31623
     primes = numpy.ones(max + 1, dtype=numpy.bool_)  # primes[0] --> 2, prime[max] --> 100000000
 
-    # start = time.time()
-    # list = list(range(2, sqrt_max+1))
-    # [ for number in list if primes[number-2]]
-
-    # map(sieve, tuple(range(2, sqrt_max+1)))
     for number in range(2, sqrt_max + 1):
         if primes[number - 2]:
             primes[(number * number - 2):max:number] = False
-    # end = time.time()
-    # print("Durée", end-start)
 
     return primes
 

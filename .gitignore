@@ -1,5 +1,6 @@
 #IDEA
 .idea
+*.iml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -108,7 +109,7 @@ celerybeat.pid
 .env
 .venv
 env/
-venv/
+python/venv/
 ENV/
 env.bak/
 venv.bak/
