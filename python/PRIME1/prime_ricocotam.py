@@ -1,10 +1,11 @@
 # https://www.spoj.com/problems/PRIME1/
 # https://zestedesavoir.com/forums/sujet/9288/mon-aventure-sur-spoj-et-autres-codeforces/?page=3
 
-import sys
-import math
 import bisect
+import math
+import sys
 import time
+
 
 def prime_sieve(end):
     nb = [False, False] + [True] * (end - 1)  # 0 and 1 to False

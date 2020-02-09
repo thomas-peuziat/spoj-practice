@@ -2,7 +2,7 @@
 // https://dhruvpancholi.wordpress.com/2016/11/03/spoj-prime-generator-solution-in-java/
 // A bit optimized for PRIME1, ~5-10% faster
 
-package prime1;
+package PRIME1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
