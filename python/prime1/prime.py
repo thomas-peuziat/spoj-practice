@@ -1,4 +1,6 @@
 # https://www.spoj.com/problems/PRIME1/
+# Not fast enough
+# See /java/prime1 for faster solution
 
 import numpy
 
